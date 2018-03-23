@@ -22,7 +22,7 @@ void main()
        time_now->tm_hour, time_now->tm_min);
   do
   {
-    printf("What is your name?(include familyname) "); scanf("%s", Name);
+    printf("What is your nickname?"); scanf("%s", Name);
     do
     {
        timer = time(NULL);
