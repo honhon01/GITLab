@@ -22,7 +22,7 @@ void main()
        time_now->tm_hour, time_now->tm_min);
   do
   {
-    printf("What is your name?(include familyname) "); scanf("%s", Name);
+    printf("What is your name?(include name + familyname) "); scanf("%s", Name);
     do
     {
        timer = time(NULL);
@@ -30,7 +30,7 @@ void main()
        hours = time_now->tm_hour;
        minutes = time_now->tm_min;
        if (hours < 0 || hours > 23 || minutes < 0 ||
-           minutes > 59) 
+           minutes > 59)
          printf("Incorrect hours or minutes, try again.");
     } while (hours < 0 || hours > 23 || minutes < 0 ||
            minutes > 59);
